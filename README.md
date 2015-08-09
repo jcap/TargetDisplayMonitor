@@ -40,7 +40,7 @@ TargetDisplayMonitor should detect this and turn off your bluetooth controller.
 
 TargetDispalyMonitor should detect this and reenabled your bluetooth controller.
 
-## Run on boot
+## Run on Login 
 
 ```Bash
 % ./install.sh
