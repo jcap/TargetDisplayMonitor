@@ -28,12 +28,12 @@ for line in loglines:
     if re_tm_off.search(line):
       target_mode = False
       syslog.syslog(syslog.LOG_INFO, 'Target Display Mode OFF')
-      call(['blueutil', 'power', '1'])
+      call(['/usr/local/bin/blueutil', 'power', '1'])
       syslog.syslog(syslog.LOG_INFO, 'Disabled Bluetooth')
   else:
     if re_tm_on.search(line):
       target_mode = True
       syslog.syslog(syslog.LOG_INFO, 'Target Display Mode ON')
-      call(['blueutil', 'power', '0'])
+      call(['/usr/local/bin/blueutil', 'power', '0'])
       syslog.syslog(syslog.LOG_INFO, 'Enabled Bluetooth')
 
