@@ -45,3 +45,7 @@ TargetDispalyMonitor should detect this and reenabled your bluetooth controller.
 ```Bash
 % ./install.sh
 ```
+## Acknowledgements
+
+Stumbled across this blog post which got me thinking:
+http://billhiggins.us/blog/2014/09/13/use-target-display-mode-with-an-imac/
