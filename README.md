@@ -30,13 +30,13 @@ install with brew:
 % ./targetdisplaymode.py
 ```
 
-## Enter Target Display Mode
+### Enter Target Display Mode
 
 Cmd-F2 to enter Target Display Mode
 
 TargetDisplayMonitor should detect this and turn off your bluetooth controller.
 
-## Unplug your thunderbolt cable
+### Unplug your thunderbolt cable
 
 TargetDispalyMonitor should detect this and reenabled your bluetooth controller.
 
