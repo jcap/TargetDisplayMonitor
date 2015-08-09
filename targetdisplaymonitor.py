@@ -1,4 +1,4 @@
-#!env python
+#!/usr/bin/python
 
 import re
 import syslog
